@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hareesh/risk/build/kuka_arm_pkg/jtc_node" "/home/hareesh/risk/build/kuka_arm_pkg/moveit_drive" "TARGETS" "jtc_node" "moveit_drive" "DESTINATION" "lib/kuka_arm_pkg")

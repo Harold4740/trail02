@@ -1,0 +1,276 @@
+[0.000000] (-) TimerEvent: {}
+[0.000117] (kuka_arm_pkg) JobQueued: {'identifier': 'kuka_arm_pkg', 'dependencies': OrderedDict()}
+[0.000134] (kuka_arm_moveit) JobQueued: {'identifier': 'kuka_arm_moveit', 'dependencies': OrderedDict([('kuka_arm_pkg', '/home/hareesh/risk/install/kuka_arm_pkg')])}
+[0.000146] (kuka_arm_pkg) JobStarted: {'identifier': 'kuka_arm_pkg'}
+[0.004054] (kuka_arm_pkg) JobProgress: {'identifier': 'kuka_arm_pkg', 'progress': 'cmake'}
+[0.004200] (kuka_arm_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/hareesh/risk/kuka_arm_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hareesh/risk/install/kuka_arm_pkg'], 'cwd': '/home/hareesh/risk/build/kuka_arm_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'hareesh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hareesh'), ('OLDPWD', '/home/hareesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1661'), ('SYSTEMD_EXEC_PID', '2305'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13669'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hareesh'), ('JOURNAL_STREAM', '8:32110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hareesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hareesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hareesh-TOPG:@/tmp/.ICE-unix/2006,unix/hareesh-TOPG:/tmp/.ICE-unix/2006'), ('INVOCATION_ID', '09020f4f8cfa4c6bb59290c24d49f9e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fcf84a7e-428f-4154-93a6-0ed6cdc5bf75'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hareesh/risk/build/kuka_arm_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097982] (kuka_arm_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099400] (-) TimerEvent: {}
+[0.145770] (kuka_arm_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.151741] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.189051] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.193355] (kuka_arm_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.193681] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.194018] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.196333] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199463] (-) TimerEvent: {}
+[0.240167] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.244406] (kuka_arm_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.244612] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.244879] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.246907] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299631] (-) TimerEvent: {}
+[0.399927] (-) TimerEvent: {}
+[0.500215] (-) TimerEvent: {}
+[0.563371] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600308] (-) TimerEvent: {}
+[0.600732] (kuka_arm_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.623217] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.655905] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.659399] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.665698] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.675469] (kuka_arm_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.688368] (kuka_arm_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700450] (-) TimerEvent: {}
+[0.734365] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.736494] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.795053] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.800600] (-) TimerEvent: {}
+[0.811407] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.838773] (kuka_arm_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.846202] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.884355] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.884660] (kuka_arm_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900688] (-) TimerEvent: {}
+[0.923546] (kuka_arm_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.924170] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000851] (-) TimerEvent: {}
+[1.020962] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[1.095747] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)\n'}
+[1.100989] (-) TimerEvent: {}
+[1.114209] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.201145] (-) TimerEvent: {}
+[1.301403] (-) TimerEvent: {}
+[1.391325] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[1.400027] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.401464] (-) TimerEvent: {}
+[1.411603] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.442047] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.491111] (kuka_arm_pkg) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.501533] (-) TimerEvent: {}
+[1.601769] (-) TimerEvent: {}
+[1.677243] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.677385] (kuka_arm_pkg) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.701905] (-) TimerEvent: {}
+[1.802130] (-) TimerEvent: {}
+[1.902372] (-) TimerEvent: {}
+[2.002623] (-) TimerEvent: {}
+[2.102882] (-) TimerEvent: {}
+[2.203139] (-) TimerEvent: {}
+[2.303383] (-) TimerEvent: {}
+[2.310731] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[2.314874] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[2.403540] (-) TimerEvent: {}
+[2.426094] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[2.503709] (-) TimerEvent: {}
+[2.569618] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[2.603852] (-) TimerEvent: {}
+[2.704109] (-) TimerEvent: {}
+[2.804384] (-) TimerEvent: {}
+[2.814352] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found graph_msgs: 0.2.0 (/opt/ros/humble/share/graph_msgs/cmake)\n'}
+[2.903151] (kuka_arm_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.904495] (-) TimerEvent: {}
+[2.919327] (kuka_arm_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.920464] (kuka_arm_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/hareesh/risk/build/kuka_arm_pkg\n'}
+[2.928446] (kuka_arm_pkg) CommandEnded: {'returncode': 0}
+[2.928825] (kuka_arm_pkg) JobProgress: {'identifier': 'kuka_arm_pkg', 'progress': 'build'}
+[2.929343] (kuka_arm_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hareesh/risk/build/kuka_arm_pkg', '--', '-j16', '-l16'], 'cwd': '/home/hareesh/risk/build/kuka_arm_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'hareesh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hareesh'), ('OLDPWD', '/home/hareesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1661'), ('SYSTEMD_EXEC_PID', '2305'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13669'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hareesh'), ('JOURNAL_STREAM', '8:32110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hareesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hareesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hareesh-TOPG:@/tmp/.ICE-unix/2006,unix/hareesh-TOPG:/tmp/.ICE-unix/2006'), ('INVOCATION_ID', '09020f4f8cfa4c6bb59290c24d49f9e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fcf84a7e-428f-4154-93a6-0ed6cdc5bf75'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hareesh/risk/build/kuka_arm_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.957408] (kuka_arm_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/jtc_node.dir/src/joint_trajectory_controller.cpp.o\x1b[0m\n'}
+[2.957541] (kuka_arm_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/moveit_drive.dir/src/motion_drive_moveit.cpp.o\x1b[0m\n'}
+[3.004663] (-) TimerEvent: {}
+[3.104969] (-) TimerEvent: {}
+[3.205263] (-) TimerEvent: {}
+[3.305584] (-) TimerEvent: {}
+[3.405888] (-) TimerEvent: {}
+[3.506190] (-) TimerEvent: {}
+[3.606497] (-) TimerEvent: {}
+[3.706791] (-) TimerEvent: {}
+[3.807087] (-) TimerEvent: {}
+[3.907392] (-) TimerEvent: {}
+[4.007686] (-) TimerEvent: {}
+[4.107996] (-) TimerEvent: {}
+[4.208299] (-) TimerEvent: {}
+[4.308599] (-) TimerEvent: {}
+[4.408895] (-) TimerEvent: {}
+[4.509198] (-) TimerEvent: {}
+[4.609459] (-) TimerEvent: {}
+[4.709720] (-) TimerEvent: {}
+[4.810017] (-) TimerEvent: {}
+[4.910311] (-) TimerEvent: {}
+[5.010598] (-) TimerEvent: {}
+[5.110886] (-) TimerEvent: {}
+[5.211183] (-) TimerEvent: {}
+[5.266504] (kuka_arm_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable jtc_node\x1b[0m\n'}
+[5.311376] (-) TimerEvent: {}
+[5.376289] (kuka_arm_pkg) StdoutLine: {'line': b'[ 75%] Built target jtc_node\n'}
+[5.411549] (-) TimerEvent: {}
+[5.511836] (-) TimerEvent: {}
+[5.612133] (-) TimerEvent: {}
+[5.712423] (-) TimerEvent: {}
+[5.812729] (-) TimerEvent: {}
+[5.913046] (-) TimerEvent: {}
+[6.013373] (-) TimerEvent: {}
+[6.113693] (-) TimerEvent: {}
+[6.213990] (-) TimerEvent: {}
+[6.314307] (-) TimerEvent: {}
+[6.414632] (-) TimerEvent: {}
+[6.514929] (-) TimerEvent: {}
+[6.615262] (-) TimerEvent: {}
+[6.715585] (-) TimerEvent: {}
+[6.815873] (-) TimerEvent: {}
+[6.916173] (-) TimerEvent: {}
+[6.924419] (kuka_arm_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable moveit_drive\x1b[0m\n'}
+[7.016345] (-) TimerEvent: {}
+[7.104851] (kuka_arm_pkg) StdoutLine: {'line': b'[100%] Built target moveit_drive\n'}
+[7.111188] (kuka_arm_pkg) CommandEnded: {'returncode': 0}
+[7.116433] (-) TimerEvent: {}
+[7.125510] (kuka_arm_pkg) JobProgress: {'identifier': 'kuka_arm_pkg', 'progress': 'install'}
+[7.130373] (kuka_arm_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hareesh/risk/build/kuka_arm_pkg'], 'cwd': '/home/hareesh/risk/build/kuka_arm_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'hareesh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hareesh'), ('OLDPWD', '/home/hareesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1661'), ('SYSTEMD_EXEC_PID', '2305'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13669'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hareesh'), ('JOURNAL_STREAM', '8:32110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hareesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hareesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hareesh-TOPG:@/tmp/.ICE-unix/2006,unix/hareesh-TOPG:/tmp/.ICE-unix/2006'), ('INVOCATION_ID', '09020f4f8cfa4c6bb59290c24d49f9e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fcf84a7e-428f-4154-93a6-0ed6cdc5bf75'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hareesh/risk/build/kuka_arm_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.133920] (kuka_arm_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.134129] (kuka_arm_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.134309] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/jtc_node\n'}
+[7.138955] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/moveit_drive\n'}
+[7.143215] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/joint_trajectory_controller.cpp\n'}
+[7.147729] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/motion_drive_moveit.cpp\n'}
+[7.152051] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/camera.urdf.xacro\n'}
+[7.156311] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.gazebo.xacro\n'}
+[7.160670] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.ros2control.xacro\n'}
+[7.164784] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.urdf.xacro\n'}
+[7.168886] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210_moveit.urdf.xacro\n'}
+[7.172907] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/target.urdf.xacro\n'}
+[7.177205] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left.dae\n'}
+[7.181769] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left_collision.dae\n'}
+[7.185958] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right.dae\n'}
+[7.190647] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right_collision.dae\n'}
+[7.194955] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/gripper_base.dae\n'}
+[7.199214] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/README.md\n'}
+[7.203637] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/base_link.stl\n'}
+[7.208018] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_1.stl\n'}
+[7.212952] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_2.stl\n'}
+[7.216528] (-) TimerEvent: {}
+[7.217265] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_3.stl\n'}
+[7.221390] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_4.stl\n'}
+[7.225641] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_5.stl\n'}
+[7.229856] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_6.stl\n'}
+[7.234234] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/base_link.dae\n'}
+[7.238808] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_1.dae\n'}
+[7.243130] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_2.dae\n'}
+[7.247768] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_3.dae\n'}
+[7.252329] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_4.dae\n'}
+[7.256981] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_5.dae\n'}
+[7.261301] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_6.dae\n'}
+[7.266182] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm.rviz\n'}
+[7.270814] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm_controllers.yaml\n'}
+[7.275348] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/1_rviz_kuka_arm.launch.py\n'}
+[7.279521] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/2_gazebo_kuka_arm.launch.py\n'}
+[7.283885] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/3_moveit_kuka_arm.launch.py\n'}
+[7.288657] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/4_moveit_node_controlling.launch.py\n'}
+[7.293136] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/kinematics_bin.dae\n'}
+[7.297507] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.config\n'}
+[7.301962] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.sdf\n'}
+[7.306328] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/kinematics_shelf.dae\n'}
+[7.310613] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.config\n'}
+[7.315393] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.sdf\n'}
+[7.316630] (-) TimerEvent: {}
+[7.320358] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/cafe.world\n'}
+[7.324998] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/ament_index/resource_index/package_run_dependencies/kuka_arm_pkg\n'}
+[7.329423] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/ament_index/resource_index/parent_prefix_path/kuka_arm_pkg\n'}
+[7.333817] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.sh\n'}
+[7.338067] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.dsv\n'}
+[7.342302] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.sh\n'}
+[7.346807] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.dsv\n'}
+[7.351155] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.bash\n'}
+[7.355575] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.sh\n'}
+[7.359927] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.zsh\n'}
+[7.364306] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.dsv\n'}
+[7.368640] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/package.dsv\n'}
+[7.373105] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/ament_index/resource_index/packages/kuka_arm_pkg\n'}
+[7.377888] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig.cmake\n'}
+[7.382380] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig-version.cmake\n'}
+[7.386850] (kuka_arm_pkg) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/package.xml\n'}
+[7.392323] (kuka_arm_pkg) CommandEnded: {'returncode': 0}
+[7.414290] (kuka_arm_pkg) JobEnded: {'identifier': 'kuka_arm_pkg', 'rc': 0}
+[7.414831] (kuka_arm_moveit) JobStarted: {'identifier': 'kuka_arm_moveit'}
+[7.416694] (-) TimerEvent: {}
+[7.417398] (kuka_arm_moveit) JobProgress: {'identifier': 'kuka_arm_moveit', 'progress': 'cmake'}
+[7.417561] (kuka_arm_moveit) Command: {'cmd': ['/usr/bin/cmake', '/home/hareesh/risk/kuka_arm_moveit', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hareesh/risk/install/kuka_arm_moveit'], 'cwd': '/home/hareesh/risk/build/kuka_arm_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'hareesh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hareesh'), ('OLDPWD', '/home/hareesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1661'), ('SYSTEMD_EXEC_PID', '2305'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13669'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hareesh'), ('JOURNAL_STREAM', '8:32110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hareesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hareesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hareesh-TOPG:@/tmp/.ICE-unix/2006,unix/hareesh-TOPG:/tmp/.ICE-unix/2006'), ('INVOCATION_ID', '09020f4f8cfa4c6bb59290c24d49f9e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hareesh/risk/install/kuka_arm_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fcf84a7e-428f-4154-93a6-0ed6cdc5bf75'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hareesh/risk/build/kuka_arm_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hareesh/risk/install/kuka_arm_pkg:/opt/ros/humble')]), 'shell': False}
+[7.447166] (kuka_arm_moveit) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[7.476944] (kuka_arm_moveit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[7.480965] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.516811] (-) TimerEvent: {}
+[7.518023] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.522371] (kuka_arm_moveit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.522558] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.522833] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.524814] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.568872] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.573042] (kuka_arm_moveit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.573200] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.573540] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.574929] (kuka_arm_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.616968] (-) TimerEvent: {}
+[7.717172] (-) TimerEvent: {}
+[7.817454] (-) TimerEvent: {}
+[7.893402] (kuka_arm_moveit) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.917539] (-) TimerEvent: {}
+[7.928339] (kuka_arm_moveit) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.979822] (kuka_arm_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.980950] (kuka_arm_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[7.981380] (kuka_arm_moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/hareesh/risk/build/kuka_arm_moveit\n'}
+[7.983828] (kuka_arm_moveit) CommandEnded: {'returncode': 0}
+[7.984557] (kuka_arm_moveit) JobProgress: {'identifier': 'kuka_arm_moveit', 'progress': 'build'}
+[7.984641] (kuka_arm_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hareesh/risk/build/kuka_arm_moveit', '--', '-j16', '-l16'], 'cwd': '/home/hareesh/risk/build/kuka_arm_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'hareesh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hareesh'), ('OLDPWD', '/home/hareesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1661'), ('SYSTEMD_EXEC_PID', '2305'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13669'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hareesh'), ('JOURNAL_STREAM', '8:32110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hareesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hareesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hareesh-TOPG:@/tmp/.ICE-unix/2006,unix/hareesh-TOPG:/tmp/.ICE-unix/2006'), ('INVOCATION_ID', '09020f4f8cfa4c6bb59290c24d49f9e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hareesh/risk/install/kuka_arm_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fcf84a7e-428f-4154-93a6-0ed6cdc5bf75'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hareesh/risk/build/kuka_arm_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hareesh/risk/install/kuka_arm_pkg:/opt/ros/humble')]), 'shell': False}
+[8.005312] (kuka_arm_moveit) CommandEnded: {'returncode': 0}
+[8.018342] (kuka_arm_moveit) JobProgress: {'identifier': 'kuka_arm_moveit', 'progress': 'install'}
+[8.018432] (-) TimerEvent: {}
+[8.018538] (kuka_arm_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hareesh/risk/build/kuka_arm_moveit'], 'cwd': '/home/hareesh/risk/build/kuka_arm_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'hareesh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hareesh'), ('OLDPWD', '/home/hareesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1661'), ('SYSTEMD_EXEC_PID', '2305'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13669'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hareesh'), ('JOURNAL_STREAM', '8:32110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hareesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hareesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hareesh-TOPG:@/tmp/.ICE-unix/2006,unix/hareesh-TOPG:/tmp/.ICE-unix/2006'), ('INVOCATION_ID', '09020f4f8cfa4c6bb59290c24d49f9e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hareesh/risk/install/kuka_arm_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fcf84a7e-428f-4154-93a6-0ed6cdc5bf75'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hareesh/risk/build/kuka_arm_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hareesh/risk/install/kuka_arm_pkg:/opt/ros/humble')]), 'shell': False}
+[8.022270] (kuka_arm_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.022561] (kuka_arm_moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.022858] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/ament_index/resource_index/package_run_dependencies/kuka_arm_moveit\n'}
+[8.027616] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/ament_index/resource_index/parent_prefix_path/kuka_arm_moveit\n'}
+[8.032357] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/environment/ament_prefix_path.sh\n'}
+[8.037338] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/environment/ament_prefix_path.dsv\n'}
+[8.042488] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/environment/path.sh\n'}
+[8.048116] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/environment/path.dsv\n'}
+[8.052823] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/local_setup.bash\n'}
+[8.057279] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/local_setup.sh\n'}
+[8.061689] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/local_setup.zsh\n'}
+[8.066374] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/local_setup.dsv\n'}
+[8.071021] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/package.dsv\n'}
+[8.075691] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/ament_index/resource_index/packages/kuka_arm_moveit\n'}
+[8.080164] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/cmake/kuka_arm_moveitConfig.cmake\n'}
+[8.084331] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/cmake/kuka_arm_moveitConfig-version.cmake\n'}
+[8.088962] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/package.xml\n'}
+[8.093309] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/demo.launch.py\n'}
+[8.097441] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/move_group.launch.py\n'}
+[8.101680] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/moveit_rviz.launch.py\n'}
+[8.105954] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/rsp.launch.py\n'}
+[8.110211] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/setup_assistant.launch.py\n'}
+[8.114224] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/spawn_controllers.launch.py\n'}
+[8.118314] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/static_virtual_joint_tfs.launch.py\n'}
+[8.118490] (-) TimerEvent: {}
+[8.122571] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/warehouse_db.launch.py\n'}
+[8.127110] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/config/initial_positions.yaml\n'}
+[8.132876] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/config/joint_limits.yaml\n'}
+[8.137116] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/config/kinematics.yaml\n'}
+[8.141167] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/config/kr210_arm.ros2_control.xacro\n'}
+[8.145064] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/config/kr210_arm.srdf\n'}
+[8.149362] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/config/kr210_arm.urdf.xacro\n'}
+[8.153944] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/config/moveit.rviz\n'}
+[8.158023] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/config/moveit_controllers.yaml\n'}
+[8.162218] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/config/pilz_cartesian_limits.yaml\n'}
+[8.166434] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/config/ros2_controllers.yaml\n'}
+[8.170554] (kuka_arm_moveit) StdoutLine: {'line': b'-- Symlinking: /home/hareesh/risk/install/kuka_arm_moveit/share/kuka_arm_moveit/.setup_assistant\n'}
+[8.175728] (kuka_arm_moveit) CommandEnded: {'returncode': 0}
+[8.194052] (kuka_arm_moveit) JobEnded: {'identifier': 'kuka_arm_moveit', 'rc': 0}
+[8.194611] (-) EventReactorShutdown: {}

@@ -1,0 +1,121 @@
+[0.067s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/hareesh/trail02/trail02']
+[0.067s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/hareesh/trail02/trail02'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f8d56074a00>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f8d56037ac0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f8d56037ac0>>, mixin_verb=('list',))
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.172s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hareesh/trail02/trail02'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/log) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/log) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/log) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/obj-tracking/__pycache__) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/build) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/build) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/build) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/install) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/install) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/install) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_moveit) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_moveit) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_moveit) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_moveit) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_moveit) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_moveit) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_moveit) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_moveit) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package '/home/hareesh/trail02/trail02/risk/kuka_arm_moveit' with type 'ros.ament_cmake' and name 'kuka_arm_moveit'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_pkg) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_pkg) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_pkg) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_pkg) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_pkg) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_pkg) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_pkg) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/kuka_arm_pkg) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package '/home/hareesh/trail02/trail02/risk/kuka_arm_pkg' with type 'ros.ament_cmake' and name 'kuka_arm_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/log) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/log) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/risk/log) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src/testng) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src/testng) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src/testng) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src/testng) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src/testng) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src/testng) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src/testng) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src/testng) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/hareesh/trail02/trail02/src/testng) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package '/home/hareesh/trail02/trail02/src/testng' with type 'ros.ament_python' and name 'testng'
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
