@@ -1,0 +1,14 @@
+[0.006s] Invoking command in '/home/hareesh/risk/build/kuka_arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hareesh/risk/build/kuka_arm_pkg -- -j16 -l16
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target jtc_node[0m
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target moveit_drive[0m
+[0.038s] [ 16%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place_gazebo.cpp.o[0m
+[0.042s] [ 50%] Built target jtc_node
+[0.048s] [ 83%] Built target moveit_drive
+[0.174s] [01m[K/home/hareesh/risk/kuka_arm_pkg/src/pick_place_gazebo.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_interface/planning_scene_interface.hpp: No such file or directory
+[0.174s]     2 | #include [01;31m[K<moveit/planning_interface/planning_scene_interface.hpp>[m[K
+[0.174s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.174s] compilation terminated.
+[0.177s] gmake[2]: *** [CMakeFiles/pick_place.dir/build.make:76: CMakeFiles/pick_place.dir/src/pick_place_gazebo.cpp.o] Error 1
+[0.177s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pick_place.dir/all] Error 2
+[0.177s] gmake: *** [Makefile:146: all] Error 2
+[0.179s] Invoked command in '/home/hareesh/risk/build/kuka_arm_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hareesh/risk/build/kuka_arm_pkg -- -j16 -l16

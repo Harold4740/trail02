@@ -1,0 +1,1 @@
+/home/hareesh/risk/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/fixed_position_pick/launch/fixed_position_pick.launch.py

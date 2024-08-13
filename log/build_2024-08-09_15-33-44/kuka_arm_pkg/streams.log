@@ -1,0 +1,74 @@
+[0.006s] Invoking command in '/home/hareesh/risk/build/kuka_arm_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hareesh/risk/build/kuka_arm_pkg -- -j16 -l16
+[0.031s] [35m[1mConsolidate compiler generated dependencies of target moveit_drive[0m
+[0.036s] [ 50%] Built target jtc_node
+[0.044s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_drive.dir/src/motion_drive_moveit.cpp.o[0m
+[4.012s] [100%] [32m[1mLinking CXX executable moveit_drive[0m
+[4.201s] [100%] Built target moveit_drive
+[4.207s] Invoked command in '/home/hareesh/risk/build/kuka_arm_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hareesh/risk/build/kuka_arm_pkg -- -j16 -l16
+[4.226s] Invoking command in '/home/hareesh/risk/build/kuka_arm_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hareesh/risk/build/kuka_arm_pkg
+[4.230s] -- Install configuration: ""
+[4.230s] -- Execute custom install script
+[4.230s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/jtc_node
+[4.235s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/moveit_drive
+[4.239s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/cam_coord.py
+[4.245s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/gazebo_camera_node.py
+[4.250s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/joint_trajectory_controller.cpp
+[4.255s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/motion_drive_moveit.cpp
+[4.259s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/camera.urdf.xacro
+[4.263s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.gazebo.xacro
+[4.268s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.ros2control.xacro
+[4.272s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.urdf.xacro
+[4.277s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210_moveit.urdf.xacro
+[4.281s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/target.urdf.xacro
+[4.285s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left.dae
+[4.290s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left_collision.dae
+[4.294s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right.dae
+[4.299s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right_collision.dae
+[4.303s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/gripper_base.dae
+[4.307s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/README.md
+[4.312s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/base_link.stl
+[4.316s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_1.stl
+[4.320s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_2.stl
+[4.325s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_3.stl
+[4.329s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_4.stl
+[4.334s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_5.stl
+[4.338s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_6.stl
+[4.343s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/base_link.dae
+[4.347s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_1.dae
+[4.352s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_2.dae
+[4.356s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_3.dae
+[4.361s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_4.dae
+[4.365s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_5.dae
+[4.370s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_6.dae
+[4.374s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm.rviz
+[4.379s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm_controllers.yaml
+[4.384s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/1_rviz_kuka_arm.launch.py
+[4.388s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/2_gazebo_kuka_arm.launch.py
+[4.393s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/3_moveit_kuka_arm.launch.py
+[4.397s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/4_moveit_node_controlling.launch.py
+[4.402s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/5_world.launch.py
+[4.406s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/kinematics_bin.dae
+[4.410s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.config
+[4.415s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.sdf
+[4.419s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/kinematics_shelf.dae
+[4.423s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.config
+[4.427s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.sdf
+[4.431s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/cafe.world
+[4.435s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/workspace.world
+[4.440s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/gazebo_camera_node.py
+[4.445s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/ament_index/resource_index/package_run_dependencies/kuka_arm_pkg
+[4.450s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/ament_index/resource_index/parent_prefix_path/kuka_arm_pkg
+[4.454s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.sh
+[4.459s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.dsv
+[4.463s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.sh
+[4.468s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.dsv
+[4.472s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.bash
+[4.476s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.sh
+[4.480s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.zsh
+[4.484s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.dsv
+[4.488s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/package.dsv
+[4.493s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/ament_index/resource_index/packages/kuka_arm_pkg
+[4.497s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig.cmake
+[4.502s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig-version.cmake
+[4.506s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/package.xml
+[4.512s] Invoked command in '/home/hareesh/risk/build/kuka_arm_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hareesh/risk/build/kuka_arm_pkg

@@ -1,0 +1,133 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found graph_msgs: 0.2.0 (/opt/ros/humble/share/graph_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hareesh/risk/build/kuka_arm_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/jtc_node.dir/src/joint_trajectory_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_drive.dir/src/motion_drive_moveit.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable jtc_node[0m
+[ 75%] Built target jtc_node
+[100%] [32m[1mLinking CXX executable moveit_drive[0m
+[100%] Built target moveit_drive
+-- Install configuration: ""
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/jtc_node
+-- Set runtime path of "/home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/jtc_node" to ""
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/moveit_drive
+-- Set runtime path of "/home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/moveit_drive" to ""
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/cam_coord.py
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/motion_drive_moveit.cpp
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/joint_trajectory_controller.cpp
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/gazebo_camera_node.py
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.urdf.xacro
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/camera.urdf.xacro
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.gazebo.xacro
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.ros2control.xacro
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/target.urdf.xacro
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210_moveit.urdf.xacro
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_3.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_4.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/base_link.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_1.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_5.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_2.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_6.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/base_link.stl
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_3.stl
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_6.stl
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_4.stl
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_1.stl
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_2.stl
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_5.stl
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/README.md
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right_collision.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/gripper_base.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left_collision.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/config
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm_controllers.yaml
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm.rviz
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/1_rviz_kuka_arm.launch.py
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/4_moveit_node_controlling.launch.py
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/5_world.launch.py
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/3_moveit_kuka_arm.launch.py
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/2_gazebo_kuka_arm.launch.py
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.sdf
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/kinematics_bin.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.config
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/kinematics_shelf.dae
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.sdf
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.config
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/cafe.world
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/workspace.world
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/gazebo_camera_node.py
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/ament_index/resource_index/package_run_dependencies/kuka_arm_pkg
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/ament_index/resource_index/parent_prefix_path/kuka_arm_pkg
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.sh
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.dsv
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.bash
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.sh
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.zsh
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.dsv
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/package.dsv
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/ament_index/resource_index/packages/kuka_arm_pkg
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig.cmake
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig-version.cmake
+-- Installing: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/package.xml

@@ -1,0 +1,4 @@
+Invoking command in '/home/hareesh/risk/build/kuka_arm_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hareesh/risk/build/kuka_arm_pkg -- -j16 -l16
+Invoked command in '/home/hareesh/risk/build/kuka_arm_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hareesh/risk/build/kuka_arm_pkg -- -j16 -l16
+Invoking command in '/home/hareesh/risk/build/kuka_arm_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hareesh/risk/build/kuka_arm_pkg
+Invoked command in '/home/hareesh/risk/build/kuka_arm_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hareesh/risk/build/kuka_arm_pkg

@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.000101] (kuka_arm_pkg) JobQueued: {'identifier': 'kuka_arm_pkg', 'dependencies': OrderedDict()}
+[0.000117] (kuka_arm_moveit) JobQueued: {'identifier': 'kuka_arm_moveit', 'dependencies': OrderedDict([('kuka_arm_pkg', '/home/hareesh/risk/install/kuka_arm_pkg')])}
+[0.000129] (kuka_arm_pkg) JobStarted: {'identifier': 'kuka_arm_pkg'}
+[0.004903] (kuka_arm_pkg) JobProgress: {'identifier': 'kuka_arm_pkg', 'progress': 'cmake'}
+[0.005877] (kuka_arm_pkg) JobProgress: {'identifier': 'kuka_arm_pkg', 'progress': 'build'}
+[0.005904] (kuka_arm_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hareesh/risk/build/kuka_arm_pkg', '--', '-j16', '-l16'], 'cwd': '/home/hareesh/risk/build/kuka_arm_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'hareesh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hareesh'), ('OLDPWD', '/home/hareesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1671'), ('SYSTEMD_EXEC_PID', '2317'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '38804'), ('COLCON_PREFIX_PATH', '/home/hareesh/risk/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hareesh'), ('JOURNAL_STREAM', '8:33522'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hareesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hareesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hareesh-TOPG:@/tmp/.ICE-unix/2021,unix/hareesh-TOPG:/tmp/.ICE-unix/2021'), ('INVOCATION_ID', '7a5f26b65930434ab929f9ea96f14175'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hareesh/risk/install/kuka_arm_moveit:/home/hareesh/risk/install/kuka_arm_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fcb48b33-7dff-4beb-adbe-c61b216e1428'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hareesh/risk/build/kuka_arm_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hareesh/risk/install/kuka_arm_moveit:/home/hareesh/risk/install/kuka_arm_pkg:/opt/ros/humble')]), 'shell': False}
+[0.034800] (kuka_arm_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_drive\x1b[0m\n'}
+[0.040259] (kuka_arm_pkg) StdoutLine: {'line': b'[ 50%] Built target jtc_node\n'}
+[0.048865] (kuka_arm_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/moveit_drive.dir/src/motion_drive_moveit.cpp.o\x1b[0m\n'}
+[0.099568] (-) TimerEvent: {}
+[0.199848] (-) TimerEvent: {}
+[0.300171] (-) TimerEvent: {}
+[0.400463] (-) TimerEvent: {}
+[0.500772] (-) TimerEvent: {}
+[0.601023] (-) TimerEvent: {}
+[0.701232] (-) TimerEvent: {}
+[0.801464] (-) TimerEvent: {}
+[0.901754] (-) TimerEvent: {}
+[1.002050] (-) TimerEvent: {}
+[1.102339] (-) TimerEvent: {}
+[1.202647] (-) TimerEvent: {}
+[1.302963] (-) TimerEvent: {}
+[1.403275] (-) TimerEvent: {}
+[1.503586] (-) TimerEvent: {}
+[1.603869] (-) TimerEvent: {}
+[1.704165] (-) TimerEvent: {}
+[1.804472] (-) TimerEvent: {}
+[1.904760] (-) TimerEvent: {}
+[2.005024] (-) TimerEvent: {}
+[2.105264] (-) TimerEvent: {}
+[2.205533] (-) TimerEvent: {}
+[2.305817] (-) TimerEvent: {}
+[2.406105] (-) TimerEvent: {}
+[2.506396] (-) TimerEvent: {}
+[2.606676] (-) TimerEvent: {}
+[2.706959] (-) TimerEvent: {}
+[2.807246] (-) TimerEvent: {}
+[2.907541] (-) TimerEvent: {}
+[3.007849] (-) TimerEvent: {}
+[3.108137] (-) TimerEvent: {}
+[3.208444] (-) TimerEvent: {}
+[3.308763] (-) TimerEvent: {}
+[3.409058] (-) TimerEvent: {}
+[3.509303] (-) TimerEvent: {}
+[3.593005] (kuka_arm_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[3.593155] (kuka_arm_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[3.593186] (kuka_arm_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[3.593212] (kuka_arm_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hareesh/risk/kuka_arm_pkg/src/motion_drive_moveit.cpp:1\x1b[m\x1b[K:\n'}
+[3.593235] (kuka_arm_pkg) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = moveit::planning_interface::MoveGroupInterface; _Args = {RobotMover*, const char (&)[9]}; _Tp = moveit::planning_interface::MoveGroupInterface]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.593262] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = moveit::planning_interface::MoveGroupInterface; _Args = {RobotMover*, const char (&)[9]}; _Tp = moveit::planning_interface::MoveGroupInterface; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<moveit::planning_interface::MoveGroupInterface>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.593287] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {RobotMover*, const char (&)[9]}; _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.593316] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {RobotMover*, const char (&)[9]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.593340] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {RobotMover*, const char (&)[9]}; _Tp = moveit::planning_interface::MoveGroupInterface; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.593364] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {RobotMover*, const char (&)[9]}; _Tp = moveit::planning_interface::MoveGroupInterface]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.593388] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {RobotMover*, const char (&)[9]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.593410] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Args = {RobotMover*, const char (&)[9]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.593434] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hareesh/risk/kuka_arm_pkg/src/motion_drive_moveit.cpp:11:93:\x1b[m\x1b[K   required from here\n'}
+[3.593461] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(RobotMover*, const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.593486] (kuka_arm_pkg) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[3.593507] (kuka_arm_pkg) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.593529] (kuka_arm_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hareesh/risk/kuka_arm_pkg/src/motion_drive_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.593550] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.593576] (kuka_arm_pkg) StderrLine: {'line': b'  159 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(MoveGroupInterface&& other) noexcept;\n'}
+[3.593597] (kuka_arm_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.593618] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[3.593639] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.593663] (kuka_arm_pkg) StderrLine: {'line': b'  145 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const std::string& group,\n'}
+[3.593684] (kuka_arm_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.593705] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KRobotMover*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Node>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.593726] (kuka_arm_pkg) StderrLine: {'line': b'  145 |   MoveGroupInterface(\x1b[01;36m\x1b[Kconst rclcpp::Node::SharedPtr& node\x1b[m\x1b[K, const std::string& group,\n'}
+[3.593747] (kuka_arm_pkg) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.593768] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.593790] (kuka_arm_pkg) StderrLine: {'line': b'  134 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const Options& opt,\n'}
+[3.593811] (kuka_arm_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.593831] (kuka_arm_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KRobotMover*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Node>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.593852] (kuka_arm_pkg) StderrLine: {'line': b'  134 |   MoveGroupInterface(\x1b[01;36m\x1b[Kconst rclcpp::Node::SharedPtr& node\x1b[m\x1b[K, const Options& opt,\n'}
+[3.593874] (kuka_arm_pkg) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.609396] (-) TimerEvent: {}
+[3.709648] (-) TimerEvent: {}
+[3.809926] (-) TimerEvent: {}
+[3.910224] (-) TimerEvent: {}
+[4.010538] (-) TimerEvent: {}
+[4.110835] (-) TimerEvent: {}
+[4.211129] (-) TimerEvent: {}
+[4.311413] (-) TimerEvent: {}
+[4.411704] (-) TimerEvent: {}
+[4.511991] (-) TimerEvent: {}
+[4.612283] (-) TimerEvent: {}
+[4.641369] (kuka_arm_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/moveit_drive.dir/build.make:76: CMakeFiles/moveit_drive.dir/src/motion_drive_moveit.cpp.o] Error 1\n'}
+[4.641520] (kuka_arm_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/moveit_drive.dir/all] Error 2\n'}
+[4.641742] (kuka_arm_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.644137] (kuka_arm_pkg) CommandEnded: {'returncode': 2}
+[4.665869] (kuka_arm_pkg) JobEnded: {'identifier': 'kuka_arm_pkg', 'rc': 2}
+[4.676283] (kuka_arm_moveit) JobSkipped: {'identifier': 'kuka_arm_moveit'}
+[4.676321] (-) EventReactorShutdown: {}

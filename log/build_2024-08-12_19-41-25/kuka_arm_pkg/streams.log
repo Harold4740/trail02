@@ -1,0 +1,282 @@
+[0.007s] Invoking command in '/home/hareesh/risk/build/kuka_arm_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hareesh/risk/build/kuka_arm_pkg -- -j16 -l16
+[0.089s] [ 50%] Built target jtc_node
+[0.110s] [100%] Built target moveit_drive
+[0.117s] Invoked command in '/home/hareesh/risk/build/kuka_arm_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hareesh/risk/build/kuka_arm_pkg -- -j16 -l16
+[0.140s] Invoking command in '/home/hareesh/risk/build/kuka_arm_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hareesh/risk/build/kuka_arm_pkg
+[0.144s] -- Install configuration: ""
+[0.145s] -- Execute custom install script
+[0.145s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/jtc_node
+[0.145s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/moveit_drive
+[0.147s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/cam_coord.py
+[0.147s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/gazebo_camera_node.py
+[0.148s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/joint_trajectory_controller.cpp
+[0.148s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/motion_drive_moveit.cpp
+[0.148s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/pick_and_place.py
+[0.148s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/HEAD
+[0.153s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/config
+[0.158s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/description
+[0.163s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/applypatch-msg.sample
+[0.167s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/commit-msg.sample
+[0.173s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/fsmonitor-watchman.sample
+[0.177s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/post-update.sample
+[0.182s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/pre-applypatch.sample
+[0.187s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/pre-commit.sample
+[0.192s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/pre-merge-commit.sample
+[0.197s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/pre-push.sample
+[0.202s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/pre-rebase.sample
+[0.206s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/pre-receive.sample
+[0.211s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/prepare-commit-msg.sample
+[0.216s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/push-to-checkout.sample
+[0.221s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/hooks/update.sample
+[0.226s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/index
+[0.231s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/info/exclude
+[0.236s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/logs/HEAD
+[0.240s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/logs/refs/heads/master
+[0.245s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/logs/refs/remotes/origin/HEAD
+[0.249s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/objects/pack/pack-0e8454a81f4f81247613e1a1afa2be40e1ea9d9e.idx
+[0.254s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/objects/pack/pack-0e8454a81f4f81247613e1a1afa2be40e1ea9d9e.pack
+[0.258s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/packed-refs
+[0.263s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/refs/heads/master
+[0.267s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.git/refs/remotes/origin/HEAD
+[0.272s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/.gitignore
+[0.276s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/CHANGELOG.rst
+[0.281s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/LICENSE
+[0.286s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/README.md
+[0.290s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/Dockerfile
+[0.295s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/README.md
+[0.300s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/00_ros2_install.sh
+[0.304s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/10_eigen_install.sh
+[0.309s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/11_libpcl_install.sh
+[0.314s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/12_opencv_install.sh
+[0.318s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/13_openvino_install.sh
+[0.323s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/20_librealsense_install.sh
+[0.327s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/30_gpg_install.sh
+[0.332s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/31_gpd_install.sh
+[0.337s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/32_ur_modern_driver_install.sh
+[0.341s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/50_ros2_deps.sh
+[0.346s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/install_ros2_grasp_library.sh
+[0.350s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/ros_entrypoint.sh
+[0.355s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/script/ros_env.sh
+[0.359s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/docker/setup_docker_display.sh
+[0.364s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/draw_x/CMakeLists.txt
+[0.368s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/draw_x/README.md
+[0.373s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/draw_x/launch/draw_x.launch.py
+[0.377s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/draw_x/launch/draw_x.yaml
+[0.381s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/draw_x/package.xml
+[0.385s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/draw_x/src/draw_x.cpp
+[0.388s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/fixed_position_pick/CMakeLists.txt
+[0.393s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/fixed_position_pick/README.md
+[0.397s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/fixed_position_pick/launch/fixed_position_pick.launch.py
+[0.402s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/fixed_position_pick/launch/fixed_position_pick.yaml
+[0.406s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/fixed_position_pick/package.xml
+[0.410s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/fixed_position_pick/src/fixed_position_pick.cpp
+[0.415s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/random_pick/CMakeLists.txt
+[0.420s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/random_pick/README.md
+[0.425s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/random_pick/cfg/random_pick.yaml
+[0.430s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/random_pick/package.xml
+[0.435s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/random_pick/rviz2/random_pick.rviz
+[0.439s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/random_pick/src/random_pick.cpp
+[0.444s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/recognize_pick/CMakeLists.txt
+[0.449s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/recognize_pick/README.md
+[0.454s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/recognize_pick/cfg/recognize_pick.yaml
+[0.459s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/recognize_pick/package.xml
+[0.464s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/recognize_pick/rviz2/recognize_pick.rviz
+[0.468s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/recognize_pick/src/place_publisher.cpp
+[0.473s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/recognize_pick/src/recognize_pick.cpp
+[0.477s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_msgs/CMakeLists.txt
+[0.481s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_msgs/msg/CloudIndexed.msg
+[0.485s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_msgs/msg/CloudSamples.msg
+[0.491s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_msgs/msg/CloudSources.msg
+[0.495s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_msgs/msg/GraspConfig.msg
+[0.499s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_msgs/msg/GraspConfigList.msg
+[0.504s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_msgs/msg/SamplesMsg.msg
+[0.508s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_msgs/package.xml
+[0.513s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/CMakeLists.txt
+[0.518s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/README.md
+[0.522s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/cfg/grasp_ros2_params.yaml
+[0.527s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/cfg/random_pick.yaml
+[0.532s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/cfg/recognize_pick.yaml
+[0.536s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/cfg/test_grasp_ros2.yaml
+[0.541s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/include/grasp_library/ros2/consts.hpp
+[0.546s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/include/grasp_library/ros2/grasp_detector_base.hpp
+[0.550s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/include/grasp_library/ros2/grasp_detector_gpd.hpp
+[0.554s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/include/grasp_library/ros2/grasp_planner.hpp
+[0.559s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/include/grasp_library/ros2/ros_params.hpp
+[0.563s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/package.xml
+[0.569s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/rviz2/grasp.rviz
+[0.573s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/src/consts.cpp
+[0.577s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/src/grasp_composition.cpp
+[0.581s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/src/grasp_detector_gpd.cpp
+[0.586s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/src/grasp_planner.cpp
+[0.591s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/src/ros_params.cpp
+[0.595s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/tests/CMakeLists.txt
+[0.600s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/tests/resource/table_top.pcd
+[0.604s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/tests/tgrasp_ros2.cpp
+[0.608s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_ros2/tests/tgrasp_ros2.h.in
+[0.612s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/CMakeLists.txt
+[0.617s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/README.md
+[0.621s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/draw_x_v_1.png
+[0.625s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/ilc_platform.png
+[0.629s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/moveit_app_zoo_global_view.png
+[0.633s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/pick_place.png
+[0.638s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/random_pick.png
+[0.643s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/random_pick_rviz.png
+[0.648s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/recognize_pick.png
+[0.652s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/ros2_grasp_library.png
+[0.657s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/table.png
+[0.662s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/ur5_setup_verify_gazebo.png
+[0.666s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/ur5_setup_verify_rviz.png
+[0.671s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/workflow.png
+[0.676s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/_static/images/workflow.vsdx
+[0.681s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/conf.py
+[0.685s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/bringup_robot.rst
+[0.690s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/draw_x.rst
+[0.695s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/fixed_position_pick.rst
+[0.699s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/getting_start.rst
+[0.703s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/grasp_api.rst
+[0.708s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/grasp_planner.rst
+[0.712s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/grasp_ros2/img/ros2_grasp_library.png
+[0.716s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/grasp_ros2/install_gpd.md
+[0.720s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/grasp_ros2/install_openvino.md
+[0.725s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/grasp_ros2/tutorials_1_grasp_ros2_with_camera.md
+[0.729s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/grasp_ros2/tutorials_2_grasp_ros2_test.md
+[0.734s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/grasp_ros2/tutorials_3_grasp_ros2_launch_options.md
+[0.739s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/handeye_calibration.rst
+[0.744s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/overview.rst
+[0.749s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/random_pick.rst
+[0.753s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/recognize_pick.rst
+[0.758s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/robot_interface.rst
+[0.763s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/doc/template.rst
+[0.768s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/index.rst
+[0.772s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_tutorials/package.xml
+[0.777s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/README.md
+[0.782s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/config/Default.perspective
+[0.786s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/data/camera-robot.json
+[0.791s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/data/dataset.json
+[0.795s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/doc/images/handeye_calibration_result.png
+[0.800s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/doc/images/handeye_dashboard.png
+[0.804s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/doc/images/handeye_target_detection.png
+[0.809s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/doc/images/robot_state.png
+[0.814s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/images/Intel.png
+[0.818s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/images/UR5.png
+[0.823s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/images/capture.png
+[0.827s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/images/tool-calibration.png
+[0.832s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/launch/handeye_dashboard.launch.py
+[0.837s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/package.xml
+[0.841s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/plugin.xml
+[0.846s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/resource/handeye_dashboard
+[0.851s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/setup.py
+[0.855s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/src/handeye_dashboard/__init__.py
+[0.860s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/src/handeye_dashboard/handeye_calibration.py
+[0.865s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/src/handeye_dashboard/main.py
+[0.870s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_dashboard/src/handeye_dashboard/plugin.py
+[0.874s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/.clang-format
+[0.879s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/CMakeLists.txt
+[0.884s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/README.md
+[0.889s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/cfg/handeye.rviz
+[0.894s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/data/detected/aruco/3X4_aruco.png
+[0.898s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/data/detected/aruco/5X7_aruco.png
+[0.903s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/data/detected/charuco/charuco.png
+[0.908s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/data/detected/chessboard/chessboard.png
+[0.913s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/data/detected/circlegrid/3X5_circles_grid.png
+[0.917s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/data/detected/circlegrid/4X11_circles_grid.png
+[0.922s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/data/pattern/aruco_3X4_DICT_4X4_50.png
+[0.926s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/data/pattern/aruco_5X7_DICT_6X6_250.png
+[0.932s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/data/pattern/asymmetric_circles_grid_3X5.png
+[0.936s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/data/pattern/asymmetric_circles_grid_4X11.png
+[0.941s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/data/pattern/charuco_5X7_DICT_6X6_250.jpg
+[0.946s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/data/pattern/chessboard_9X6.png
+[0.950s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/include/PoseEstimator.h
+[0.955s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/launch/pose_estimation.launch.py
+[0.960s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/launch/pose_estimation.yaml
+[0.964s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/package.xml
+[0.969s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/src/pose_estimation_node.cpp
+[0.974s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_target_detection/src/pose_estimator.cpp
+[0.979s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_tf_service/CMakeLists.txt
+[0.983s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_tf_service/README.md
+[0.988s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_tf_service/package.xml
+[0.993s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_tf_service/src/handeye_tf_server.cpp
+[0.998s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/handeye_tf_service/srv/HandeyeTF.srv
+[1.003s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/robot_interface/CMakeLists.txt
+[1.008s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/robot_interface/Doxyfile
+[1.012s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/robot_interface/README.md
+[1.017s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/robot_interface/include/robot_interface/control_base.hpp
+[1.022s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/robot_interface/include/robot_interface/control_ur.hpp
+[1.026s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/robot_interface/launch/ur_test.launch.py
+[1.031s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/robot_interface/launch/ur_test.yaml
+[1.036s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/robot_interface/package.xml
+[1.041s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/robot_interface/src/control_base.cpp
+[1.045s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/robot_interface/src/control_ur.cpp
+[1.050s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/robot_interface/test/ur_test_move_command.cpp
+[1.054s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/grasp_utils/robot_interface/test/ur_test_state_publish.cpp
+[1.058s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/moveit_msgs_light/CMakeLists.txt
+[1.063s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/moveit_msgs_light/README.md
+[1.067s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/moveit_msgs_light/msg/CollisionObject.msg
+[1.072s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/moveit_msgs_light/msg/Grasp.msg
+[1.076s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/moveit_msgs_light/msg/GripperTranslation.msg
+[1.081s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/moveit_msgs_light/msg/MoveItErrorCodes.msg
+[1.085s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/moveit_msgs_light/msg/ObjectType.msg
+[1.088s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/moveit_msgs_light/msg/PlaceLocation.msg
+[1.093s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/moveit_msgs_light/package.xml
+[1.097s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/src/ros2_grasp_library/moveit_msgs_light/srv/GraspPlanning.srv
+[1.102s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/camera.urdf.xacro
+[1.103s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.gazebo.xacro
+[1.103s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.ros2control.xacro
+[1.103s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.urdf.xacro
+[1.103s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210_moveit.urdf.xacro
+[1.103s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/target.urdf.xacro
+[1.104s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left.dae
+[1.104s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left_collision.dae
+[1.104s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right.dae
+[1.104s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right_collision.dae
+[1.104s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/gripper_base.dae
+[1.104s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/README.md
+[1.104s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/base_link.stl
+[1.104s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_1.stl
+[1.104s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_2.stl
+[1.104s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_3.stl
+[1.104s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_4.stl
+[1.105s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_5.stl
+[1.105s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_6.stl
+[1.105s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/base_link.dae
+[1.105s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_1.dae
+[1.105s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_2.dae
+[1.105s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_3.dae
+[1.105s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_4.dae
+[1.105s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_5.dae
+[1.105s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_6.dae
+[1.105s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm.rviz
+[1.105s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm_controllers.yaml
+[1.106s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/1_rviz_kuka_arm.launch.py
+[1.106s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/2_gazebo_kuka_arm.launch.py
+[1.106s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/3_moveit_kuka_arm.launch.py
+[1.106s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/4_moveit_node_controlling.launch.py
+[1.106s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/5_world.launch.py
+[1.106s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/kinematics_bin.dae
+[1.106s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.config
+[1.107s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.sdf
+[1.107s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/kinematics_shelf.dae
+[1.107s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.config
+[1.107s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.sdf
+[1.107s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/cafe.world
+[1.107s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/pick_and_place.world
+[1.107s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/workspace.world
+[1.107s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/gazebo_camera_node.py
+[1.107s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/cam_coord.py
+[1.107s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/lib/kuka_arm_pkg/pick_and_place.py
+[1.108s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/ament_index/resource_index/package_run_dependencies/kuka_arm_pkg
+[1.108s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/ament_index/resource_index/parent_prefix_path/kuka_arm_pkg
+[1.108s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.sh
+[1.108s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.dsv
+[1.108s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.sh
+[1.109s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.dsv
+[1.109s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.bash
+[1.109s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.sh
+[1.109s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.zsh
+[1.109s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.dsv
+[1.109s] -- Symlinking: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/package.dsv
+[1.113s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/ament_index/resource_index/packages/kuka_arm_pkg
+[1.113s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig.cmake
+[1.113s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig-version.cmake
+[1.113s] -- Up-to-date symlink: /home/hareesh/risk/install/kuka_arm_pkg/share/kuka_arm_pkg/package.xml
+[1.115s] Invoked command in '/home/hareesh/risk/build/kuka_arm_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hareesh/risk/build/kuka_arm_pkg

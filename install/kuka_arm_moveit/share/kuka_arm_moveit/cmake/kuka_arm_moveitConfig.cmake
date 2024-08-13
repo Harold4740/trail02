@@ -1,0 +1,1 @@
+/home/hareesh/risk/build/kuka_arm_moveit/ament_cmake_core/kuka_arm_moveitConfig.cmake

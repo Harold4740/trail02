@@ -1,0 +1,1 @@
+/home/hareesh/risk/kuka_arm_pkg/src/ros2_grasp_library/grasp_apps/recognize_pick/src/place_publisher.cpp
